@@ -40,7 +40,8 @@ export class ExpenseService {
     if (!deletedExpense) {
       throw new NotFoundException('not found')
     }
+    
     return deletedExpense;
   }
-  
+
 }
